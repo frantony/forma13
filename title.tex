@@ -1,0 +1,57 @@
+\documentclass[12pt,a4paper]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,russian]{babel}
+\linespread{1.3}		% 1,5 интервала
+\usepackage{ulem}		% текcт вразрядку AKA soul
+				% \uline{}, \uwave{}, \sout{}, \xout{}
+
+\hoffset=-12mm
+\voffset=-1in
+\paperwidth=185mm
+\textheight=265mm
+\oddsidemargin=0mm
+\textwidth=185mm
+
+\begin{document}
+
+\input{tpage_conf}
+\thispagestyle{empty}
+
+\
+
+\eject
+
+\def\cmnwidth{150mm}
+
+\thispagestyle{empty}
+
+{\hfill {\tiny Форма №13}\hskip 8mm}
+\vskip 3mm
+
+\begin{center}
+\uline{\textbf{РОССИЙСКИЙ ГОСУДАРСТВЕННЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ}}
+\vskip 10mm
+
+\parbox{\cmnwidth}{\textbf{Факультет} \uline{\hfill\facultyname\hfill}}
+\vskip 30mm
+
+\textbf{\Huge{ЖУРНАЛ \ ЗАНЯТИЙ}}
+\vskip 10mm
+
+%\textbf{\large{(старших куров)}}
+\vskip 25mm
+
+\parbox{\cmnwidth}{\textbf{Группа} \uline{\hfill{\Huge \textbf{\groupname}}\hfill}}
+\vskip 5mm
+
+\parbox{\cmnwidth}{\textbf{Курс} \uline{\hfill 1 \hfill}}
+\vskip 5mm
+
+\parbox{\cmnwidth}{\textbf{Начат} \uline{\hfill} \textbf{Окончен} \uline{\hfill}}
+\vskip 5mm
+\end{center}
+
+\end{document}
+
+\endinput

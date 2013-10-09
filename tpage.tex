@@ -1,0 +1,77 @@
+\def\lline#1#2{#1 & #2 & & & & & & & & & & & & & & & & & & & & & & & & & &\\ \hline}
+\def\nlline#1#2{#1 & \multicolumn{1}{c|}{\small #2} & & & & & & & & & & & & & & & & & & & & & & & & & &\\}
+
+\thispagestyle{empty}
+
+\begin{landscape}
+{
+\parbox{139mm}{\textbf{Факультет} \uline{\hfill\facultyname\hfill}}
+\parbox{139mm}{\textbf{Группа} \uline{\hfill\groupname\hfill}}
+}
+
+{
+\parbox{139mm}{\textbf{Наименование дисциплины} \uline{\hfill\disciple\hfill}}
+\parbox{139mm}{\textbf{Фамилия преподавателя} \uline{\hfill\tutorfname\hfill}}
+}
+
+\begin{tabular}{|>{\centering\arraybackslash}m{4mm}|p{50mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|p{4mm}|}
+\hline
+\nlline{}{Месяц и число}
+\hline
+\nlline{}{Часов академических}
+\hline
+\nlline{}{Вид занятий}
+\nlline{}{(лекции, групповые занятия,}
+\nlline{}{консультации, отработки и т.д.)}
+\nlline{}{содержание}
+%\nlline{}{\parbox{50mm}{Вид занятий \\ (лекции, групповые занятия, консультации, отработки и т.д.)  содержание}}
+\hline
+\nlline{}{Расписка преподавателя}
+\hline
+\lline{1}{\studenti}
+\lline{2}{\studentii}
+\lline{3}{\studentiii}
+\lline{4}{\studentiv}
+\lline{5}{\studentv}
+\lline{6}{\studentvi}
+\lline{7}{\studentvii}
+\lline{8}{\studentviii}
+\lline{9}{\studentix}
+\lline{10}{\studentx}
+\lline{11}{\studentxi}
+\lline{12}{\studentxii}
+\lline{13}{\studentxiii}
+\lline{14}{\studentxiv}
+\lline{15}{\studentxv}
+\lline{16}{\studentxvi}
+\lline{17}{\studentxvii}
+\lline{18}{\studentxviii}
+\lline{19}{\studentxix}
+\end{tabular}
+
+\vskip 7mm
+
+{\hfill \textbf{Староста группы} \uline{\parbox{100mm}{\ }}}
+%{\hfill \textbf{Староста группы} \rule{80mm}{.5pt}}
+%\newcommand\kitty{\leavevmode\xleaders\hbox{\_}\hfill\kern -6pt}
+
+%\hskip 120mm \textbf{Староста группы} \kitty
+%\makebox[0.5\textwidth]{Name:\enspace\hrulefill}
+
+%Test:
+%\begin{tabular}{p{50mm}}
+%\hline
+%\end{tabular}
+
+%\rule{2mm}{2mm}
+%\line(1,0){250}
+%\rule[<raise height>]{<width>}{<height>}}
+% \rule{2in}{.5pt}
+% \makebox[0.5\textwidth]{Name:\enspace\hrulefill}
+
+%\newcommand\blank[1]{\rule[-.2ex]{#1}{.4pt}}
+%in your preamble allows you to say
+%\blank{2cm}
+
+\end{landscape}
+\endinput
